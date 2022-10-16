@@ -1,0 +1,18 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {},
+    "globals": {
+        "web3": true,
+        "__dirname": true,
+        "process": true,
+        "__filename": true
+    }
+}
