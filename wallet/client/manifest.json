@@ -2,5 +2,18 @@
     "name": "Gastly Fantom Wallet Extension",
     "description": "Gastly Fantom Wallet Extension Project!",
     "version": "1.0",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": ["storage"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+
+        },
+        "icons": {
+
+        }
+      },
     "manifest_version": 3
 }
